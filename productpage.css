@@ -12,6 +12,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+    color: #af502d;
+}
 body{
     margin: 0;
     padding: 0;
@@ -39,6 +44,7 @@ body{
     width: 100%;
     display: flex;
     gap: 40px;
+    margin-top: 50px;
 
 }
 .texts{
@@ -54,6 +60,7 @@ body{
     font-size: larger;
     font-family: myfont;
     font-size: 70px;
+    margin-top: 10px;
 
 }
 .h2{
@@ -67,4 +74,67 @@ body{
     color: rgb(202, 108, 27);
     font-family: myfonttwo;
     font-size:50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+}
+
+ .links{
+    padding: 20px;
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-left: 70px;
+}
+.logo{
+    color: #af502d;
+    font-weight: bold;
+   padding: 20px;
+   margin-left: 45px;
+   font-size: 22px;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .parentdiv {
+        flex-direction: column;
+    }
+
+    .h1 {
+
+        font-size: 40px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+    .h3{
+        font-size: 25px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .links{
+        margin-left: 0;
+    }
+    .img{
+        height: 40vh;
+    }
 }

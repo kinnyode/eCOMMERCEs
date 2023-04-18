@@ -77,8 +77,13 @@ body{
   font-size: 40px;
   font-weight: bold;
   font-family: myfonttwo;
+  margin-top: 60px;
     
  
+}
+a{
+    text-decoration: none;
+    color: #af502d;
 }
 .text{
     display: flex;
@@ -122,10 +127,17 @@ body{
 .box1{
     width: 100%;
 }
-
-.links{
-    display: none;
+.header {
+    flex-direction: column;
 }
+.links{
+    margin-left: 0;
+}
+.texts .h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
 
 }
 
