@@ -137,4 +137,7 @@ body{
     .img{
         height: 40vh;
     }
+    .logo{
+        margin-left: 0;
+    }
 }
