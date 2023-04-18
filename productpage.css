@@ -1,0 +1,48 @@
+@font-face {
+    font-family: myfont;
+    src: url(Manrope-Light.ttf);
+}
+@font-face {
+    font-family: myfonttwo;
+    src: url(Manrope-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: myfont;
+}
+
+.parentdiv{
+    padding:70px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+   
+}
+.h1{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: myfonttwo;
+
+}
+
+.h3{
+    font-weight: bold;
+    color: rgb(202, 108, 27);
+}

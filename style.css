@@ -20,7 +20,7 @@ body{
     font-family: myfont;
 }
 .logo{
-    color: #de6a40;
+    color: #af502d;
     font-weight: bold;
    padding: 20px;
    margin-left: 45px;
@@ -28,7 +28,6 @@ body{
 }
 .container{
     display: flex;
-
     flex-direction: column;
 }
 .header{
@@ -68,7 +67,7 @@ body{
        flex-wrap: wrap;
        padding: 40px;
        
-       
+
     
 
 }
